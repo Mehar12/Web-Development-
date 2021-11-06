@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <title> 
+    	Walk through your HTML page | blog.codingninjas.in 
+    </title>
+
+    <head> 
+	<img src = "C:\Users\mehar\OneDrive\Desktop\logo.jpg" height = "200" width = "300">
+    <br>
+
+    </head>
+
+	<body> 
+		<a href = "file:///C:/Users/mehar/OneDrive/Desktop/Web%20Dev/Intro.html">  blog.codingninjas.in <a>
+
+    <h3> A step-by-step walk through of your first HTML page </h3>
+
+<img src = "C:\Users\mehar\OneDrive\Desktop\Step by step.jpg" height = "250" width = "400">
+
+<p> HTML is short for HyperText Markup Language.Basically, it’s the “code” behind every webpage – even this one. If you’re just beginning to learn HTML, let us tell you that it’s a fairly easy task. HTML, without styling, can’t do anything more than setting a layout, drawing a table, or creating frames – but it is handy as it helps you structure the content correctly, which is important when you sit down to add style to your HTML.
+</p>
+
+<img src = "C:\Users\mehar\OneDrive\Desktop\code.jpg" height = "250" width = "400">
+  
+<br>
+ <p> However simple this might seem, it is a mighty useful tool when it comes to full-fledged web development. Various tools easily eliminate the HTML coding from your work process – but if you want to be in full control of your web-page, you’ll need to have some command over HTML.
+
+Through this article, we aim to give you the essential HTML building blocks that’ll help you get up and running. Reading this, you’ll be able to understand an HTML source code and even modify it for your own good!
+</p>
+
+<h3> Step One - Tags </h3>
+<img src ="C:\Users\mehar\OneDrive\Desktop\tags.jpg" height = "250" width = "400" align = "centre">
+
+<p>
+	Tags are what you’ll see the most when you look at any HTML source code. A tag can ideally be seen as a wrapper to any item on your HTML document. Tags tell what magic is to be done on the content enclosed by them.
+<br> </br>
+Let’s look at two types of tags:
+<br> </br>
+<ol>
+<li> &lttag-example-1&gt I need a closing tag &lt/tag-example-1&gt
+</li>
+<li> 
+	&lttag-example-2&gt I don’t need a closing tag. 
+	</li>
+</ol>
+<p>
+In the first example, the sentence is wrapped by two tags. The first one is called the <b>opening tag</b> and the second one is called the <b>closing tag</b>. <i>Everything in between is affected by the properties of the tag</i>. Very commonly used examples of such tags are &lthtml&gt, &lthead&gt, &ltbody&gt, &ltstrong&gt, etc.
+<br> </br>
+The second example tags about loner tags – as in, they don’t need a closing tag to function. Although it’s not required, these type of tags are often written as &lttag /&gt to make the debugging of code easier. Common examples of such tags are &lthr&gt – used for horizontal line, &ltbr&gt– to break the line, etc.
+</p>
+
+<h3> Step Two – HTML, HEAD, and BODY: The three pillars of your document </h3>
+
+<img src ="C:\Users\mehar\OneDrive\Pictures\headbody.jpg"
+width ="400" height ="300" centre>
+<p>
+These tags are essential for any HTML document. They parcel out the significant parts of your HTML code.
+<br> </br>
+<b>&ltHTML&gt&lt/HTML&gt</b> wraps your entire code. Everything else in your HTML document needs to come inside these tags.
+<br> </br>
+<b> &ltHEAD&gt&lt/HEAD&gt</b> includes things like title, styles, and scripts. Head is usually present at the top (hah!), just inside the &ltHTML&gt tag.
+<br> </br>
+<b> &ltBODY&gt&lt/BODY&gt</b> is placed below your &ltHEAD&gt tag, and everything that you want to be displayed on your screen comes under this tag. Text, images, links, and pretty much anything you can see in your browser live inside this tag.
+<br> </br>
+
+<h3>Step three – A few tags that’ll make your page pretty</h3>
+
+<p>
+	Now that you know how to set up the skeleton of your document, let’s proceed with the things that will go inside your &ltBODY&gt tag and do some magic!
+
+Some basic text formatting tags:
+<ul>
+	<li>
+&ltb&gt&lt/b&gt makes your text look bold
+</li>
+<li>
+&lti&gt&lt/i&gt makes you write in cursive
+</li>
+<li>
+&ltu&gt&lt/u&gt underlines what you just wrote
+</li>
+</p>
+
+<p>These tags would show text like this</p>
+<img src ="C:\Users\mehar\OneDrive\Desktop\new tags .jpg"
+width ="350" height ="300">
+
+	</body>
+</html>
